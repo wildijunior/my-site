@@ -1,0 +1,73 @@
+/****************** ELEMENTS ******************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 120%;
+}
+
+h1 {
+  /*20em - Tamanho da letra M */
+  /*1em = 16px = 100% = 1em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 2px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 2rem; */
+  color: #66BFBF;
+
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+
+}
+
+/****************** CLASS ******************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.second-p {
+  visibility: hidden;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+
+/****************** IDS ******************/
