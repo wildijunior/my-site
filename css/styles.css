@@ -10,17 +10,18 @@ body {
 h1 {
   /*20em - Tamanho da letra M */
   /*1em = 16px = 100% = 1em */
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  font-family: "Sacramento", cursive;
   color: #66BFBF;
+  font-size: 5.625rem;
+  /* line-height: 2; */
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
-  margin: 2px auto 0 auto;
+  color: #66BFBF;
   font-family: "Montserrat", sans-serif;
   /* font-size: 2rem; */
-  color: #66BFBF;
+  font-weight: normal;
 
 }
 
@@ -68,6 +69,34 @@ p{
   left: 400px;
   bottom: 300px;
 }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto; /*para centralizar tudo*/
+  text-align: left;
+  line-height: 2; /*espaco entre linhas*/
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cook-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+/* .code-skill-description{
+  clear: left;
+}
+
+.cook-skill-description{
+  clear: right;
+} */
 
 
 /****************** IDS ******************/
