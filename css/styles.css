@@ -95,6 +95,13 @@ hr{
   
 }
 
+.more-skill{
+  width: 50%;
+  margin: 100px auto 100px auto; /*para centralizar tudo*/
+  text-align: left;
+  
+}
+
 .code-img{
   width: 20%;
   float: left;
@@ -104,6 +111,13 @@ hr{
 .cook-img{
   width: 20%;
   float: right;
+  margin-left: 30px;
+
+}
+
+.idea-img{
+  width: 20%;
+  float: left;
   margin-left: 30px;
 
 }
@@ -128,13 +142,6 @@ hr{
   padding: 20px 0;
 }
 
-/* .code-skill-description{
-  clear: left;
-}
-
-.cook-skill-description{
-  clear: right;
-} */
 
 .btn {
   background: #11CDD4;
@@ -152,6 +159,8 @@ hr{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
+
+
 
 .btn:hover {
   background: #30E3CB;
