@@ -1,4 +1,4 @@
-# my-site
+# My-site
 My personal site. 
 
 ### Need Some Updates 
